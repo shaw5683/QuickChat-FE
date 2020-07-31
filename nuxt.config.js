@@ -2,7 +2,7 @@ import colors from 'vuetify/es5/util/colors'
 
 export default {
   env: {
-    BASE_URL: process.env.NODE_ENV === 'development' ? 'http://localhost:7001' : ''
+    BASE_URL: process.env.NODE_ENV === 'development' ? 'http://localhost:7001' : 'https://chat-api.huishoubao.com'
   },
   /*
   ** Nuxt rendering mode
@@ -69,7 +69,7 @@ export default {
   ** See https://axios.nuxtjs.org/options
   */
   axios: {
-    // baseURL: 'http://localhost:7001',
+    baseURL: process.env.NODE_ENV === 'development' ? '/' : 'https://chat-api.huishoubao.com',
     prefix: '/api',
     withCredentials: true
   },
