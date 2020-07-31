@@ -1,6 +1,10 @@
 import colors from 'vuetify/es5/util/colors'
 
 export default {
+  server: {
+    port: 8000,
+    host: '0.0.0.0'
+  },
   env: {
     BASE_URL: process.env.NODE_ENV === 'development' ? 'http://localhost:7001' : 'https://chat-api.huishoubao.com'
   },
