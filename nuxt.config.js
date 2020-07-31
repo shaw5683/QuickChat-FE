@@ -73,7 +73,7 @@ export default {
   ** See https://axios.nuxtjs.org/options
   */
   axios: {
-    baseURL: process.env.NODE_ENV === 'development' ? '/' : 'https://chat-api.huishoubao.com',
+    baseURL: process.env.NODE_ENV === 'development' ? '/' : 'https://chat-api.996cnm.xyz',
     prefix: '/api',
     withCredentials: true
   },
