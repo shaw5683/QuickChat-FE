@@ -1,0 +1,26 @@
+{
+  "name": "QuickChat-FE",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "export": "nuxt export",
+    "serve": "nuxt serve"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.11.0",
+    "@tinymce/tinymce-vue": "^3.2.2",
+    "cross-env": "^7.0.2",
+    "nuxt": "^2.13.0",
+    "socket.io-client": "^2.3.0",
+    "uuid": "^8.3.0",
+    "vue-socket.io-extended": "^4.0.4"
+  },
+  "devDependencies": {
+    "@nuxtjs/proxy": "^2.0.1",
+    "@nuxtjs/vuetify": "^1.11.2",
+    "eslint-config-hsb": "^0.3.2"
+  }
+}
